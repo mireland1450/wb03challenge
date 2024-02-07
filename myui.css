@@ -1,0 +1,91 @@
+
+
+.bkimg{
+    background-image: url(../duncan-kidd.jpg);
+    background-size: 100%;
+   
+    
+}
+
+a.changecol{
+    color: #000000 !important;
+ }
+
+ .join{
+    padding-top: 60%;
+    padding-bottom: 20%;
+}
+
+h3 img{
+    height: 150px;
+    width: 250px; 
+    
+}
+
+img{
+    padding: 5px;
+    margin: 5px;
+    
+ 
+}
+
+ h4{
+   font-size: small;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+ }
+
+ .imagecontainer{
+    width: 350px;
+    margin: 10px;
+    
+ }
+
+ .bottomimgcontainer{
+    height: 50px;
+ }
+
+
+/* Apply flexbox to the uk-grid container */
+.uk-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Set the default flex properties for larger screens */
+.uk-width-1-2 {
+    flex: 1 0 auto;
+}
+
+.bkimg {
+    flex: 1 0 auto;
+}
+
+/* Adjust the flex properties for smaller screens (less than or equal to 720px) */
+@media (max-width: 720px) {
+    .uk-grid {
+        flex-direction: column-reverse; /* Swap order for smaller screens */
+    }
+
+    .uk-width-1-2,
+    .bkimg {
+        flex: 1 0 100%; /* Make both elements take 100% width in a column layout */
+    }
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
+ 
+
+    
+ 
